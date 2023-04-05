@@ -1,0 +1,87 @@
+.header-container,
+.footer-container {
+    background-color: darkgrey;
+}
+
+.header-container {
+    text-align: center;
+    height: 10vh;
+    padding-top: 1%;
+}
+
+.main-conteiner {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.footer-container {
+    background-color: darkgray;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 80px;
+    justify-items: center;
+}
+
+.footer-container p {
+    margin-left: 20px;
+}
+
+.main-block {
+    background-color: burlywood;
+}
+
+.main-block h3 {
+    text-align: center;
+}
+
+.still {
+    display: grid;
+    width: 96%;
+    height: 150px;
+    grid-template-areas: "one one two two"
+        "three three three three";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px 50px;
+    grid-gap: 10px;
+    margin: 0 20px;
+}
+
+.one {
+    grid-area: one;
+    background-color: aliceblue;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.two {
+    background-color: aliceblue;
+    text-align: center;
+    grid-area: two;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.three {
+    background-color: aliceblue;
+    text-align: center;
+    grid-area: three;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.aside-block {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.footer-container p {
+    background-color: aliceblue;
+    width: 70%;
+    height: 20px;
+    text-align: center;
+    padding: 15px;
+}
